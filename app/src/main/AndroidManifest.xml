@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rkuandpeer">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RkuAndPeer"
+        tools:targetApi="31">
+        <activity
+            android:name=".addpost"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AcademicEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpecialEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewcart"
+            android:exported="false" />
+        <activity
+            android:name=".selectcat"
+            android:exported="false" />
+        <activity
+            android:name=".fillform"
+            android:exported="false" />
+        <activity
+            android:name=".adddata"
+            android:exported="false" />
+        <activity
+            android:name=".fragment1"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".CreateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".guidelines"
+            android:exported="false" />
+        <activity
+            android:name=".phrasebook"
+            android:exported="false" />
+        <activity
+            android:name=".Buy"
+            android:exported="false" />
+        <activity
+            android:name=".Map"
+            android:exported="false" />
+        <activity
+            android:name=".seekhelp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

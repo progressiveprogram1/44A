@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227869983912",
+    "firebase_url": "https://rku-and-peer-default-rtdb.firebaseio.com",
+    "project_id": "rku-and-peer",
+    "storage_bucket": "rku-and-peer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227869983912:android:9a496d6daf72152e016e9d",
+        "android_client_info": {
+          "package_name": "com.example.rkuandpeer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227869983912-fidbej8v8f3d8li8rpcr8uaniujli95k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbWpdKKiMytEo6bMXfhz75rXHYNdl2Fw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227869983912-fidbej8v8f3d8li8rpcr8uaniujli95k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    tools:context=".selectcat">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginRight="173dp"
+        android:text="Items"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:id="@+id/viewcart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:src="@drawable/ic_baseline_add_shopping_cart_24"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/addpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/ic_baseline_add_24"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/heading"
+   >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/include"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@id/heading"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#FFFFFFFF"
+            app:tabIndicatorColor="#8F19EA"
+            app:tabIndicatorHeight="3.5dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#EA1919"
+            app:tabTextColor="#EA1919">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/engineer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stationary">
+
+            </com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/Pharmacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Books">
+
+            </com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/Business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clothes">
+
+            </com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports">
+
+            </com.google.android.material.tabs.TabItem>
+        </com.google.android.material.tabs.TabLayout>
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="20dp"
+            android:text="Add to Cart"/>
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-500dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="-80dp"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-80dp"
+                    android:layout_marginTop="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nametext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Name"
+                        android:textColor="#000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/titletxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Title"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+
+                    <TextView
+                        android:id="@+id/pricetxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Price"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/emailtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Email"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/descrip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="This is the description"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentcontainer" />
+</RelativeLayout>
