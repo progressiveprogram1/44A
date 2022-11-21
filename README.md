@@ -42,3 +42,7 @@ Software requirements: Android 4.0 +, IOS 5 +
 3.	Gate Pass can be added.
 4.	Appointment with teachers can be done.
 
+
+![image](https://user-images.githubusercontent.com/94287768/203066736-394512e5-7626-4c0c-aae0-89a0de132922.png)
+![image](https://user-images.githubusercontent.com/94287768/203066802-5494913d-cae5-43ed-9ddf-eec641210e55.png)
+
