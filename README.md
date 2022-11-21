@@ -1,5 +1,7 @@
 # 44A
 App Name :RKU and Peer
+
+
 Description:
 RKU does not provide apps for assisting the students, so we found a solution that can become the peer of the RKU student. With our app seniors can sell their student supplies to their juniors. Moreover, international students can use the app to get guide outside and inside campus, like going to the supermarket.On top of this RK university student can now get all the information they need by seeking help from their seniors using the SEEK HELP functionality and be UP TO DATE with all events, fees and holidays.Our Students do not need to worry about finding their mentors, teachers etc numbers as all guidelines with the helplines,hospitals etc are going to be available. 
 
