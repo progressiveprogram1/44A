@@ -36,6 +36,8 @@ Limitations:
 
 Hardware requirements: Mobile Phone,4gb ram.
 Software requirements: Android 4.0 +, IOS 5 +
+
+
  Future Enhancement:
 1.	Student attendance can be added.
 2.	 Timetable of classes of teachers and students.
